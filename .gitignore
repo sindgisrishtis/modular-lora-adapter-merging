@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# Conda
+.env
+.conda/
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# Datasets
+data/
+*.parquet
+
+# Experiments (keep structure, ignore weights)
+experiments/**/checkpoint-*/
+experiments/**/adapter_model.safetensors
+
+# OS
+.DS_Store
+

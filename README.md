@@ -106,17 +106,21 @@ Adapters are assigned to different transformer depth ranges:
 ---
 
 ## Project Structure
+
+```text
 modular-lora-adapter-merging/
-├── assets/
+├── assets/                  # Screenshots for experimental proof
 ├── src/
-│ ├── lora/
-│ ├── merge/
-│ ├── evaluation/
-│ └── models/
-├── experiments/
-├── config/
+│   ├── lora/                # LoRA adapter training
+│   ├── merge/               # Adapter merging strategies
+│   ├── evaluation/          # Task evaluation & comparison
+│   ├── models/              # Base model loading
+│   └── utils/               # Utility functions
+├── experiments/             # Adapter configs (weights ignored)
+├── config/                  # Model & LoRA configuration files
 ├── requirements.txt
 └── README.md
+
 
 
 ---
@@ -161,7 +165,7 @@ This project demonstrates that **modular LoRA adapters can be trained, merged, a
 ---
 
 ## Author
-**Srishti Sindgi**
-
+**Srishti Sindgi**  
+GitHub: https://github.com/sindgisrishtis
 
 
